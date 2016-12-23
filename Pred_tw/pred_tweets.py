@@ -152,6 +152,6 @@ for i in range(len(song_list)):
 #            print song_list[i],',',neg,',', pos,',',rate
     
         else:
-            print song_list[i],"feature number:", shape(features_cv)[1], "is not enough"
+            print song_list[i],"feature number:", np.shape(features_cv)[1], "is not enough"
 #            print song_list[i],",","nan"
             pass
